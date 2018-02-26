@@ -1,5 +1,7 @@
-# east-pear-syntax theme
+# East Pear-syntax theme
 
-A short description of your theme.
+A light earthy theme. The colors much inspired by the [Pear](https://github.com/Niishi/pear-syntax) syntax theme.
 
-![A screenshot of your theme](https://f.cloud.github.com/assets/69169/2289498/4c3cb0ec-a009-11e3-8dbd-077ee11741e5.gif)
+The East Pear syntax is designed for the [East End](https://github.com/MarcusE1W/eastend-ui) ui theme.
+
+![](https://github.com/MarcusE1W/east-pear-syntax/raw/master/screenshot.png)

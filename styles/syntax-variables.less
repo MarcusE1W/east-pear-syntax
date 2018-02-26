@@ -21,10 +21,12 @@
 @syntax-result-marker-color-selected: @vanilla;
 
 // Gutter colors
-@syntax-gutter-text-color: darken(@green, 35%);
-@syntax-gutter-text-color-selected: @syntax-gutter-text-color;
-@syntax-gutter-background-color: darken(@moccasin, 3%);
-@syntax-gutter-background-color-selected: @vanilla;
+// @syntax-gutter-text-color: darken(@green, 0%);
+@syntax-gutter-text-color: @ui-txt;
+@syntax-gutter-text-color-selected: @ui-txt-selected;
+// @syntax-gutter-background-color: darken(@moccasin, 3%);
+@syntax-gutter-background-color-selected: lighten(@ui-background, 20%);
+@syntax-gutter-background-color: @ui-background;
 
 // For git diff info. i.e. in the gutter
 @syntax-color-renamed: @peterRiver;
