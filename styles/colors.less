@@ -1,5 +1,49 @@
-// East Pear syntax
-// These colors are specific to the theme. Do not use in a package!
+// East End syntax theme
+
+// Config -----------------------------------
+@syntax-hue:          220;
+@syntax-saturation:   13%;
+@syntax-brightness:   18%;
+
+
+// Monochrome -----------------------------------
+@mono-1: hsl(@syntax-hue, 14%, 71%); // default text
+@mono-2: hsl(@syntax-hue,  9%, 55%);
+@mono-3: hsl(@syntax-hue, 10%, 40%);
+
+// Colors -----------------------------------
+@hue-1:   @peterRiver; // <-cyan
+@hue-2:   @blue; // <-blue
+@hue-3:   @purple; // <-purple
+@hue-4:   @syntax-accent; // <-green
+
+@hue-5:   hsl(355, 65%, 65%); // <-red 1
+@hue-5-2: hsl(  5, 48%, 51%); // <-red 2
+
+@hue-6:   @orange; // <-orange 1
+@hue-6-2: @light-orange; // <-orange 2
+
+// @hue-1:   hsl(187, 47%, 55%); // <-cyan
+// @hue-2:   hsl(207, 82%, 66%); // <-blue
+// @hue-3:   hsl(286, 60%, 67%); // <-purple
+// @hue-4:   hsl( 95, 38%, 62%); // <-green
+//
+// @hue-5:   hsl(355, 65%, 65%); // <-red 1
+// @hue-5-2: hsl(  5, 48%, 51%); // <-red 2
+//
+// @hue-6:   hsl( 29, 54%, 61%); // <-orange 1
+// @hue-6-2: hsl( 39, 67%, 69%); // <-orange 2
+
+
+// Base colors -----------------------------------
+@syntax-fg:     @ui-background;
+@syntax-bg:     @moccasin;
+@syntax-gutter-txt: darken(@pear, 30%);
+@syntax-guide:  @vanilla;
+@syntax-accent: darken(@pear,20%);
+
+
+// East Pear colors
 
 @very-light-gray: #c5c8c6;
 @light-gray: #969896;
@@ -9,11 +53,11 @@
 
 @cyan: #8abeb7;
 // @blue: #81a2be;
-@blue: #5c84a8;
+@blue: #2649de;
 // @purple: #af84bb;
-@purple: #9763a6;
+@purple: #9356a4;
 // @green: #b5bd68;
-@green: #8a9141;
+@green: #3c9845;
 // @red: #c65353;
 @red: #cc6666;
 @light-orange: #f0c674;
@@ -26,7 +70,8 @@
 @emerald     :#2ecc71;
 @greenSea    :#16a085;
 @nephritis   :#27ae60;
-@peterRiver  :#3498db;
+@peterRiver  :hsl(207, 82%, 66%);
+// @peterRiver  :#3498db;
 @concrete    :#95a5a6;
 
 @light-green        :#9ED99E;
