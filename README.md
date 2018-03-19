@@ -1,4 +1,4 @@
-# East Pear-syntax theme
+# East End-syntax theme
 
 A light flowery theme. The colors are inspired by the [Pear](https://github.com/Niishi/pear-syntax) syntax theme.
 
