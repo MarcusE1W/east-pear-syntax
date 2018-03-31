@@ -11,7 +11,7 @@
     "east-end-ui",
     "east-end-syntax"
   ],
-  "repository": "https://github.com/marcuse1w/xxx",
+  "repository": "https://github.com/MarcusE1W/eastend-syntax",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0"
