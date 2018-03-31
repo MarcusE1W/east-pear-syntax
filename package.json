@@ -2,11 +2,14 @@
   "name": "east-end-syntax",
   "theme": "syntax",
   "version": "0.0.0",
-  "description": "A light caffee late theme",
+  "description": "A light cafe late theme",
   "keywords": [
     "light",
     "brown",
-    "syntax"
+    "syntax",
+    "theme",
+    "east-end-ui",
+    "east-end-syntax"
   ],
   "repository": "https://github.com/marcuse1w/xxx",
   "license": "MIT",
