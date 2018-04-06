@@ -4,7 +4,7 @@
 
 // Official Syntax Variables -----------------------------------
 
-// General colors
+// General text colors
 @syntax-text-color:            @syntax-fg;
 @syntax-cursor-color:          @syntax-accent;
 @syntax-selection-color:       darken(@syntax-background-color, 10%);
@@ -16,7 +16,7 @@
 // Guide colors
 @syntax-wrap-guide-color:          @syntax-guide;
 @syntax-indent-guide-color:        @syntax-guide;
-@syntax-invisible-character-color: @mono-3;
+@syntax-invisible-character-color: @mono-1;
 
 // For find and replace markers
 @syntax-result-marker-color:          fade(@syntax-accent, 24%);
@@ -25,7 +25,7 @@
 // Gutter colors
 @syntax-gutter-text-color:                @syntax-gutter-txt;
 @syntax-gutter-text-color-selected:       @ui-txt-selected;
-@syntax-gutter-background-color:          darken(@syntax-background-color, 4%);
+@syntax-gutter-background-color:          darken(@syntax-background-color, 3%);
 @syntax-gutter-background-color-selected: lighten(@syntax-fg, 20%);
 
 // Git colors - For git diff info. i.e. in the gutter
@@ -49,6 +49,8 @@
 @syntax-color-snippet:    @hue-4;
 
 
+
+
 // Custom Syntax Variables -----------------------------------
 // Don't use in packages
 
@@ -58,3 +60,12 @@
 @syntax-deprecated-bg: @syntax-color-modified;
 @syntax-illegal-fg:    white;
 @syntax-illegal-bg:    @syntax-color-removed;
+
+
+// Text attributes
+@syntax-text-bold: @orange;
+
+
+// Language attributes
+@syntax-lang-comment: @mono-2;
+@syntax-lang-highlight: @taupeGray;
