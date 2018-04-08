@@ -7,7 +7,7 @@ The East End syntax is designed for the [East End UI theme](https://atom.io/them
 The idea is to have, together with the UI theme a GUI that is easily readable on a notebook in many light conditions.
 
 The syntax theme is based on the [One Dark](https://atom.io/themes/one-dark-syntax) syntax.
-It has and the same additional highlight support for:
+It has the same additional highlight support for:
 -  C,
 -  Cpp,
 -  C#,
